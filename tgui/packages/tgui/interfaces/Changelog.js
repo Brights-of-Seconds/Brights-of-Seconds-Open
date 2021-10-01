@@ -176,27 +176,27 @@ export class Changelog extends Component {
 
     const header = (
       <Section>
-        <h1>Traditional Games Space Station 13</h1>
+        <h1>Brights of Seconds</h1>
         <p>
           <b>Thanks to: </b>
-          Baystation 12, /vg/station, NTstation, CDK Station devs,
+          /tg/station, Baystation 12, /vg/station, NTstation, CDK Station devs,
           FacepunchStation, GoonStation devs, the original Space Station 13
           developers, Invisty for the title image and the countless others who
           have contributed to the game, issue tracker or wiki over the years.
         </p>
         <p>
           {'Current project maintainers can be found '}
-          <a href="https://github.com/tgstation?tab=members">
+          <a href="https://github.com/Brights-of-Seconds?tab=members">
             here
           </a>
           {', recent GitHub contributors can be found '}
-          <a href="https://github.com/tgstation/tgstation/pulse/monthly">
+          <a href="https://github.com/Brights-of-Seconds/Brights-of-Seconds/pulse/monthly">
             here
           </a>.
         </p>
         <p>
           {'You can also join our discord '}
-          <a href="https://tgstation13.org/phpBB/viewforum.php?f=60">
+          <a href="">
             here
           </a>.
         </p>
@@ -219,7 +219,7 @@ export class Changelog extends Component {
           I Said No
         </p>
         <p>
-          Traditional Games Space Station 13 is thankful to the
+          Brights of Seconds is thankful to the TGstation development and the
           GoonStation 13 Development Team for its work on the game up to the
           {' r4407 release. The changelog for changes up to r4407 can be seen '}
           <a href="https://wiki.ss13.co/Changelog#April_2010">
@@ -236,9 +236,9 @@ export class Changelog extends Component {
           <a href="http://forums.somethingawful.com/">SomethingAwful Goons</a>
           {' only.'}
         </p>
-        <h3>Traditional Games Space Station 13 License</h3>
+        <h3>Brights of Seconds License</h3>
         <p>
-          {'All code after '}
+          {'All code SS13 after '}
           <a href={'https://github.com/tgstation/tgstation/commit/'
             + '333c566b88108de218d882840e61928a9b759d8f'}>
             commit 333c566b88108de218d882840e61928a9b759d8f on 2014/31/12
@@ -278,11 +278,17 @@ export class Changelog extends Component {
           {' for the MIT license.'}
         </p>
         <p>
-          {'All assets including icons and sound are under a '}
+          {'All assets SS13 including icons and sound are under a '}
           <a href="https://creativecommons.org/licenses/by-sa/3.0/">
             Creative Commons 3.0 BY-SA license
           </a>
           {' unless otherwise indicated.'}
+        </p>
+        <p>
+          {'All code in folder Brights-of-Seconds a copyright.'}
+        </p>
+        <p>
+          {'All assets in folder Brights-of-Seconds a copyright.'}
         </p>
       </Section>
     );
