@@ -4,6 +4,9 @@
 /data/**/*
 /tmp/**/*
 
+#Ignore files in Brights-of-Seconds
+/Brights-of-Seconds/**/*
+
 #Ignore byond config folder.
 /cfg/**/*
 
