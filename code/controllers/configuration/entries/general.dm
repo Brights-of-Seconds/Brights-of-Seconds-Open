@@ -234,7 +234,7 @@
 	default = "http://www.tgstation13.org/wiki/Rules"
 
 /datum/config_entry/string/githuburl
-	default = "https://www.github.com/tgstation/tgstation"
+	default = "https://www.github.com/Brights-of-Seconds-Open/Brights-of-Seconds-Open"
 
 /datum/config_entry/string/discordbotcommandprefix
 	default = "?"
