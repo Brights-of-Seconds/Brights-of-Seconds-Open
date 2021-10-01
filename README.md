@@ -1,4 +1,4 @@
-## /Brights-of-Seconds/Brights-of-Seconds codebase
+## Brights of Seconds codebase
 
 [![Build Status](https://github.com/Brights-of-Seconds/Brights-of-Seconds/workflows/CI%20Suite/badge.svg)](https://github.com/Brights-of-Seconds/Brights-of-Seconds/actions?query=workflow%3A%22CI+Suite%22)
 
