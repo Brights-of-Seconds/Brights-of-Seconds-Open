@@ -17,11 +17,11 @@ cfg
 data
 SQL
 node_modules
-tgstation.dmb
-tgstation.int
-tgstation.rsc
-tgstation.lk
-tgstation.dyn.rsc
+Brights-of-Seconds.dmb
+Brights-of-Seconds.int
+Brights-of-Seconds.rsc
+Brights-of-Seconds.lk
+Brights-of-Seconds.dyn.rsc
 *.dll
 Dockerfile
 tools/bootstrap/.cache

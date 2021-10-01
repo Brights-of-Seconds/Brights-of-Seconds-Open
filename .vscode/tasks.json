@@ -26,12 +26,12 @@
 		},
 		{
 			"type": "dreammaker",
-			"dme": "tgstation.dme",
+			"dme": "Brights-of-Seconds.dme",
 			"problemMatcher": [
 				"$dreammaker"
 			],
 			"group": "build",
-			"label": "dm: build - tgstation.dme"
+			"label": "dm: build - Brights-of-Seconds.dme"
 		},
 		{
 			"type": "shell",

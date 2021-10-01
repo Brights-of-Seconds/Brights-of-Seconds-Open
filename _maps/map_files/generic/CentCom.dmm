@@ -232,7 +232,6 @@
 /turf/open/floor/plating,
 /area/start)
 "fZ" = (
-/obj/effect/landmark/ctf,
 /turf/open/space/basic,
 /area/space)
 "gt" = (

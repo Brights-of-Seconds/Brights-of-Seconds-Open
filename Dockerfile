@@ -71,7 +71,7 @@ RUN . ./dependencies.sh \
 
 # final = byond + runtime deps + rust_g + build
 FROM byond
-WORKDIR /tgstation
+WORKDIR /Brights-of-Seconds
 
 RUN apt-get install -y --no-install-recommends \
         libssl1.0.0:i386 \
@@ -80,6 +80,6 @@ RUN apt-get install -y --no-install-recommends \
 COPY --from=build /deploy ./
 COPY --from=rust_g /rust_g/target/i686-unknown-linux-gnu/release/librust_g.so ./librust_g.so
 
-VOLUME [ "/tgstation/config", "/tgstation/data" ]
-ENTRYPOINT [ "DreamDaemon", "tgstation.dmb", "-port", "1337", "-trusted", "-close", "-verbose" ]
+VOLUME [ "/Brights-of-Seconds/config", "/Brights-of-Seconds/data" ]
+ENTRYPOINT [ "DreamDaemon", "Brights-of-Seconds.dmb", "-port", "1337", "-trusted", "-close", "-verbose" ]
 EXPOSE 1337

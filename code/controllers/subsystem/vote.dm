@@ -177,7 +177,7 @@ SUBSYSTEM_DEF(vote)
 				if(!lower_admin && SSmapping.map_voted)
 					to_chat(usr, span_warning("The next map has already been selected."))
 					return FALSE
-				// Randomizes the list so it isn't always METASTATION
+				// Randomizes the list so it isn't always
 				var/list/maps = list()
 				for(var/map in global.config.maplist)
 					var/datum/map_config/VM = config.maplist[map]
