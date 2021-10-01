@@ -14,9 +14,9 @@
 	var/votable = FALSE
 
 	// Config actually from the JSON - should default to Meta
-	var/map_name = "Ice Box Station"
-	var/map_path = "map_files/"
-	var/map_file = "IceBoxStation.dmm"
+	var/map_name = "RuntimeStation"
+	var/map_path = "map_files/debug"
+	var/map_file = "runtimestation.dmm"
 
 	var/traits = null
 	var/space_ruin_levels = 7

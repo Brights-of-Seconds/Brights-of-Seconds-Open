@@ -14,10 +14,10 @@ Format:
 endmap
 
 map icebox
-	default
 endmap
 
 map runtimestation
+	default
 endmap
 
 map multiz_debug
